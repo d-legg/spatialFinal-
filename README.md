@@ -1,8 +1,12 @@
-# This is our Spatial data final Project
-###### Group Members: Dylan Legg and Nicolas Sundberg
-***Concept:*** Python program that accepts any csv file using Pandas/GeoPandas.read_file, and then the user inputs to manipulate the file. The program will use the geopandas function in the background and use the user inputs as shortcuts to changing or viewing the data. We are hoping to create some kind of shortcut to basic functions so that you can focus on more complicated functions. 
-
-***Python Packages*** 
-+ Pandas
-+ Numpy
-+ Matplotlib
+# GEOG 490 Final
+#### Authors: Dylan Legg, Nicolas Sundberg
+## Summary:
+##### This QGIS plugin will take input and selections from a menu and will output a shapefile onto the map.
+## Problem Objectives:
+##### Create an easy interface for people to select data from the Census in the form of a shapefile.
+## Data Sets:
+##### US Census Data
+## Python Packages:
+##### Census, Pandas, Matplotlib
+## Planned Methods:
+##### Create a nice menu interface with different selection tools to get the data you want from the Census. In the backround we will use the Census Python package to get data based off of the selections from the user. 
