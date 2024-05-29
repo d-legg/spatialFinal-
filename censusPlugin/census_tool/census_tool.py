@@ -45,6 +45,7 @@ class GetCensus:
         """
         # Save reference to the QGIS interface
         self.iface = iface
+        self.dlg = GetCensusDialog()
         # initialize plugin directory
         self.plugin_dir = os.path.dirname(__file__)
         # initialize locale
@@ -62,6 +63,7 @@ class GetCensus:
         # Declare instance attributes
         self.actions = []
         self.menu = self.tr(u'&Census Helper Plugin')
+
 
         # Check if plugin was started the first time in current QGIS session
         # Must be set in initGui() to survive plugin reloads
