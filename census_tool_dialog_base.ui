@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GetCensusDialogBase</class>
+ <widget class="QDialog" name="GetCensusDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Census Helper Plugin</string>
+  </property>
+  <widget class="QDialogButtonBox" name="button_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>370</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stateBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>50</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Alabama</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alaska</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arizona</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arkansas</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>California</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Colorado</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Connecticut</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Delaware</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>District of Columbia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Florida</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Georgia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hawaii</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Idaho</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Illinois</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Indiana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Iowa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kansas</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kentucky</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Louisiana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maine</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maryland</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Massachusetts</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Michigan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Minnesota</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mississippi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Missouri</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Montana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nebraska</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nevada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Hampshire</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Jersey</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Mexico</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New York</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>North Carolina</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>North Dakota</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ohio</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oklahoma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oregon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pennsylvania</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rhode Island</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>South Carolina</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>South Dakota</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tennessee</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Texas</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Utah</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vermont</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Virginia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Washington</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>West Virginia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wisconsin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wyoming</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="labelS">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>Select State:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addGeo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>121</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Geography</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plotButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>330</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Plot</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelC">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select County:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelG">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select ACS5 Geography:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="countyBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="acs5Box">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>21</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>County</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Congressional District</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>State</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Zipcode</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="addData">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>121</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Data</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZ">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select Zipcode:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="zipcodeBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCD">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select Congressional District:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cdBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_box</sender>
+   <signal>accepted()</signal>
+   <receiver>GetCensusDialogBase</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>GetCensusDialogBase</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
